@@ -11,7 +11,7 @@ namespace ISegundoParcial.Interfaz.OperacionesMath
         private double r = 0;
         public void calculo(double x, double y)
         {
-            r = x + y;
+            r = x * y;
 
         }
         public void resultado()

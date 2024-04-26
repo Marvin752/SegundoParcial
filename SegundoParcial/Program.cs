@@ -6,6 +6,7 @@ using System.Security.AccessControl;
 int salir = 0;
 do
 {
+    
     try
     {
         Console.Clear();
@@ -109,7 +110,7 @@ do
                         break;
                     case 3:
                         Console.WriteLine();
-                        mango.curar();
+                        draco.curar();
                         Console.WriteLine("Se a curado la vida de enemigo " + draco.vida);
                         Console.WriteLine("Presione Enter para continuar");
                         Console.ReadKey();

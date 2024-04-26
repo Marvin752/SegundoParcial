@@ -18,8 +18,8 @@ namespace Indexer.ClasesIndex
         }
         public void MostrarInfo()
         {
-            Console.WriteLine($"Nombre: {nombre}");
-            Console.WriteLine($"Carnet: {carnet}");
+            Console.WriteLine($"Nombre: {carnet}");
+            Console.WriteLine($"Carnet: {nombre}");
             Console.WriteLine("==================================");
         }
     }

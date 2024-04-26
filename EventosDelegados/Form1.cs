@@ -5,7 +5,7 @@ namespace EventosDelegados
 {
     public partial class Form1 : Form
     {
-        public delegate string sirviente(string m);
+        public delegate string Sirviente(string m);
         public Form1()
         {
             InitializeComponent();
@@ -13,8 +13,8 @@ namespace EventosDelegados
 
         private void ButtonDele_Click(object sender, EventArgs e)
         {
-            sirviente chacho = new sirviente(Radio.Mensaje);
-            MessageBox.Show(chacho("Mitologia griega"));
+            Sirviente señor = new Sirviente(Radio.Mensaje);
+            MessageBox.Show(señor("Mitologia griega"));
         }
 
         private void Cosocaja_Popup(object sender, PopupEventArgs e)
@@ -24,8 +24,8 @@ namespace EventosDelegados
 
         private void Botontele_Click(object sender, EventArgs e)
         {
-            sirviente chacho = new sirviente(Television.Mostratele);
-            MessageBox.Show(chacho("Deporte extremo"));
+            Sirviente señor = new Sirviente(Television.Mostratele);
+            MessageBox.Show(señor("Deporte extremo"));
         }
 
         private void Pasarboton1(object sender, EventArgs e)

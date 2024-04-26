@@ -12,11 +12,11 @@ namespace Delegado
             Delegar Chamba = new Delegar(Radio.Mensaje);
 
             // Llamada al método a través del delegado
-            Chamba("Mitologia sobre dinosaurios");
+            Console.WriteLine(Chamba("Mitologia sobre dinosaurios"));
 
             Chamba = new Delegar(Television.Mostratele);
 
-            Chamba("Spy White vs Spy Black");
+            Console.WriteLine(Chamba("Spy White vs Spy Black"));
         }
     }
 }

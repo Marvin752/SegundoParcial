@@ -9,6 +9,7 @@ namespace SegundoParcial.ClasesPadre.ClasesHijas.ClasesNietas
 {
     internal class Magos : Guerreros
     {
+      
         public Magos()
         {
             if (nombre == null || !this.nombre.Equals(""))
